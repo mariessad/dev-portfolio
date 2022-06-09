@@ -109,8 +109,7 @@ h1,
   font-size: calc(1.725rem + 5.7vw);
 }
 @media (min-width: 1200px) {
-  h1,
-  .h1 {
+  h1 .h1 {
     font-size: 6rem;
   }
 }
@@ -7740,7 +7739,15 @@ fieldset:disabled .btn {
 }
 
 .bg-primary {
-  background-color: var(--bs-pink) !important;
+  background-color: var(--bs-pink);
+  background-image: linear-gradient(315deg, #ff007f 0%, #8506c5 74%);
+  /* background-image: linear-gradient(
+    to bottom right,
+    rgb(224, 17, 95),
+    var(--bs-pink),
+    rgb(224, 17, 95)
+  ) !important; */
+  /* background-color: var(--bs-pink) !important; */
 }
 
 .bg-secondary {
@@ -11263,7 +11270,7 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.2rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
     display: flex;
