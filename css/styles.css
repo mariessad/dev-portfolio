@@ -11453,3 +11453,21 @@ section.resume-section .resume-section-content {
     color: var(--color-1);
   }
 }
+
+/* modal images */
+.modal-image-1 {
+  width: 50%;
+  max-width: 400px;
+  height: auto;
+}
+/* .modal-image-2 {
+  height: 50%;
+  width: auto;
+  max-height: 600px;
+  max-width: 500px;
+  height: auto;
+} */
+
+.modal-div {
+  width: 40rem;
+}
