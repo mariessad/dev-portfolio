@@ -11471,3 +11471,7 @@ section.resume-section .resume-section-content {
 .modal-div {
   width: 40rem;
 }
+
+.pink {
+  color: var(--bs-pink);
+}
