@@ -11460,13 +11460,12 @@ section.resume-section .resume-section-content {
   max-width: 400px;
   height: auto;
 }
-/* .modal-image-2 {
-  height: 50%;
-  width: auto;
+.modal-image-2 {
+  width:100%;
   max-height: 600px;
   max-width: 500px;
   height: auto;
-} */
+}
 
 .modal-div {
   width: 40rem;
@@ -11474,4 +11473,15 @@ section.resume-section .resume-section-content {
 
 .pink {
   color: var(--bs-pink);
+}
+
+.btn-close-modal {
+  display: block;
+  background-color: grey;
+  border-radius: 3px;
+  width: 154px;
+  padding: 6px 12px;
+  font-size: 2rem;
+  margin-top: 1rem;
+  border-style: none;
 }
